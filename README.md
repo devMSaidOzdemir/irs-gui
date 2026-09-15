@@ -1,13 +1,13 @@
 # irs-gui
 
-IRS metayüzey hücrelerini seri porttan kontrol eden Qt arayüzü.
+Qt interface that controls IRS metasurface cells via serial port.
 
-TÜBİTAK 2209-A projesi "X-band IRS ile kablosuz güç iletimi" kapasamında geliştiriliyor.
+Developed within the scope of TÜBİTAK 2209-A project "Wireless power transmission with X-band IRS".
 
-## Derleme
+## Build
 
-Qt 6.10 ve CMake gerekir. Qt Creator ile 'CMakeLists.txt' dosyasını aç ve Run'a bas.
+Qt 6.10.2 and CMake are required. Open the `CMakeLists.txt` file with Qt Creator and press Run.
 
-## Durum
+## Status
 
-Adım 1: Boş pencere açılıyor.
+Step 1: A blank window opens; SerialPort and Charts linked.
